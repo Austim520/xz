@@ -1,0 +1,98 @@
+/*渐变*/
+.linear{
+    background-image:linear-gradient(to bottom,#F0F0F0,#E1E1E1);
+    height:38px;
+    line-height:38px;
+}
+.linear>span{
+    font:1rem simhei;
+    color:#808080;
+}
+/*广告高度*/
+.banner_height>p{
+    font:0.8rem "microsoft yahei";
+    color:#808080;
+}
+/*商品列表*/
+.border{
+    border:1px solid #f0f0f0;
+}
+.h5-color{
+    color:#0AA1ED !important;
+}
+/*product-a*/
+.btn-h-1{
+    width:100px;
+    height:32px;
+    background-image:linear-gradient(to bottom,#27B1F6,#0BA2ED);
+    border:none;
+}
+.btn-h-1:hover{
+    background-image:linear-gradient(to bottom,#24A7E9,#0BA1ED);
+}
+/*+/-*/
+.input-cart>span{
+    padding:0;
+    font-size:1.5rem;
+    width:1.8rem;
+    height:1.8rem;
+    line-height:1.5rem;
+    font-weight:bold;
+    background-color:#E4E4E4;
+    border:none;
+}
+.input-cart span:hover{
+    background-color:#BABABA;
+}
+.input-cart>input{
+    width:2.5rem;
+    height:1.6rem;
+    padding-left:0.8rem;
+    border:none;
+    outline:none;
+}
+/*分页条*/
+.pagination .page-item .page-link{
+    background-color:rgba(0,0,0,0);
+    border:1px solid #ddd;
+    margin:0 0.2rem;
+    border-radius:0.4rem;
+}
+.pagination .page-item .page-link:focus {
+    box-shadow: 0 0 0 0;
+    background-color:#0AA1ED;
+    color:#fff;
+}
+.pagination .page-item .page-link:hover{
+    border-color:#0AA1ED;
+}
+/*购物车*/
+.linear-1{
+    background-image:linear-gradient(to bottom,#EFEFEF,#E1E1E1);
+    color:#B8B8B8;
+}
+.line{
+    height:2px;
+    border-bottom: 1px dashed #b8b8b8;
+}
+.btn-h-2{
+    width:75px;
+    height:46px;
+    background-image:linear-gradient(to bottom,#27B1F6,#0BA2ED);
+    border:none;
+    font-size:20px;
+    border-radius:0;
+}
+.btn-h-2:hover{
+    background-image:linear-gradient(to bottom,#24A7E9,#0BA1ED);
+}
+.bg-wh{
+    width:194px;
+    height:46px;
+    background-color:#808080;
+    color:#fff;
+    font-size:20px;
+    border:1px solid #808080;
+}
+
+

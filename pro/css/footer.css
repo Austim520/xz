@@ -1,0 +1,14 @@
+/*footer_center*/
+#foot-center ul li a{
+    color:#808080;
+}
+#foot-center ul li h5 a{
+    color:#212529;
+}
+#foot-center ul li a:hover{
+    text-decoration:none;
+    color:#333333;
+}
+footer div{
+    background-color:#fff !important;
+}

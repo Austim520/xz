@@ -1,0 +1,83 @@
+
+/*****轮播图四个圆点******/
+.carousel-indicators li{
+    width:0.6rem;
+    height:0.6rem;
+    background-color:#fff;
+    border-radius:50%;
+    margin:0 0.4rem;
+}
+.carousel-indicators .active{
+    background-color:#0aa1ed;
+}
+/*****轮播图左右箭头*****/
+.carousel-control-next,.carousel-control-prev{
+    width:5%;
+    height:20%;
+    top:40%;
+    background-color:#aaa;
+    border-radius:0.25rem;
+}
+
+
+/********首页推荐 1F********/
+.one{
+    border-bottom:2px solid #D9D9D9;
+}
+.one h4{color:#666;}
+/******1F*****/
+/***1F上***/
+.floor1>div>div{
+    height:377px;
+    background-color:#E8E8E8;
+}
+/*左*/
+.card,.card-header{
+    background-color:transparent;
+}
+.card-img .tra-img{
+    margin-top:-250px;
+    margin-right:35px;
+}
+.card>div.card-header a{
+    width:130px;
+    height:40px;
+    background-image:linear-gradient(to bottom,#27B1F6,#0BA2ED);
+    border:none;
+    text-decoration:none;
+}
+.card>div.card-header span{
+    color:#666666;
+}
+.card div.card-header h4{
+    color:#0AA1ED;
+}
+/*右*/
+.card-img2{
+        margin-top:-205px;
+        margin-right:35px;
+    }
+/*1F下*/
+.floor2>div.left>div{
+     height:233px;
+     background-color:#E8E8E8;
+ }
+.floor2>div.right>div>div>div>div{
+    height:233px;
+    background-color:#E8E8E8;
+}
+/*下右a，h4*/
+.btn-h>h4{
+    color:#0AA1ED;
+}
+.btn-h>span{
+    font-size:0.7rem;
+    color:#333;
+}
+/*index-min-a*/
+.btn-h>a{
+    width:100px;
+    height:25px;
+    background-image:linear-gradient(to bottom,#27B1F6,#0BA2ED);
+    border:none;
+}

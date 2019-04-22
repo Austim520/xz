@@ -1,0 +1,30 @@
+/*面包屑导航*/
+.breadcrumb-item + .breadcrumb-item::before{
+    content:"|" ;
+}
+ul.breadcrumb li.breadcrumb-item a{
+    font-size:0.8rem;
+    color:#808080;
+}
+ul.breadcrumb li.breadcrumb-item a:hover{
+    text-decoration: none;
+    color:#0AA1ED;
+}
+.breadcrumb{
+    background-color:#f5f5f5;
+}
+/*搜索框*/
+div.input-group>input{
+    border-color:#0AA1ED;
+}
+/*首页水平导航栏*/
+.nav-item a.nav-link{
+    font-size:1rem;
+    color:#CCCCCC;
+}
+.nav-item a:hover{
+    color:#B8B8B8;
+}
+.form-control{
+    background:url("../img/header/header_normal.png") no-repeat 97% center;
+}
